@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: fbfc708865bbf9f4385e5dcc215fe596
+timeCreated: 1487868011
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Adobe Garamond Pro
+  fontNames:
+  - Adobe Garamond Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1869b610e3d9e2840af6c3e3e027db07, type: 3}
+  - {fileID: 12800000, guid: f0d712f6f29ff5a44901d15330c382b5, type: 3}
+  - {fileID: 12800000, guid: 79d5a707af0a38f4b8a581b149253973, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

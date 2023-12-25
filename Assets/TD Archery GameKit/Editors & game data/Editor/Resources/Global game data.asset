@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d0fae456d736b2408da510dda61d7c1, type: 3}
+  m_Name: Global game data
+  m_EditorClassIdentifier: 
+  defaultArrow: {fileID: 1032395008977604, guid: 19774424de12bd842943042bc3ec9a3a,
+    type: 3}
+  iceColor: {r: 0.7307526, g: 0.85933363, b: 0.9117647, a: 1}
+  camRotationSpeed: 5
+  sensitivity: 2
+  maxAimRotation: 50
+  maxPredictionLineSteps: 35
+  fadeDelay: 2
+  fadeSpeed: 2
+  killCamTimescale: 0.2
+  killCamDuration: 4
+  killCamChance: 3
+  characters:
+  - character: {fileID: 1334360646302362, guid: 7b8fe7427e7e40142b780052cda64a58,
+      type: 3}
+    characterRagdoll: {fileID: 1297719042278240, guid: 0e1643b08c734a24f82fc0b28f3e124d,
+      type: 3}
+    characterName: Default archer
+    price: 0
+    description: 'This is the default character.
+
+      You won''t need any coins
+      to select it.
+
+      This character doesn''t have special arrows.'
+  - character: {fileID: 1334360646302362, guid: dd661ad83d958cb41822c2f6639e4946,
+      type: 3}
+    characterRagdoll: {fileID: 1214572340918116, guid: 4f908afe66fd75c4e9df1b1ec8a77323,
+      type: 3}
+    characterName: Freeze archer
+    price: 100
+    description: 'The freeze archer is quite a powerful character.
+
+      It can
+      use freeze arrows to freeze enemies.'
+  - character: {fileID: 1481055527254102, guid: 3dcc2b716a9f77748a3c865760e2390d,
+      type: 3}
+    characterRagdoll: {fileID: 1054443883180620, guid: d5856607655e9af4294e2e6cd4edee87,
+      type: 3}
+    characterName: Explosion archer
+    price: 200
+    description: 'The explosion archer can shoot exploding arrows.
+
+      These arrows
+      will kill any enemy within their range.
+
+      It also has access to the freeze
+      arrows.'
+  buttonLoadingColor: {r: 0.7028547, g: 0.7519091, b: 0.7647059, a: 1}
+  buttonReadyColor: {r: 1, g: 1, b: 1, a: 1}
+  buttonOutlineColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+  selectedButtonOutlineColor: {r: 1, g: 0.22758621, b: 0, a: 1}
+  specialArrows:
+  - arrow: {fileID: 1032395008977604, guid: d854ee05b8be8da46b65050a6a2817c6, type: 3}
+    image: {fileID: 21300000, guid: 836b4fb148be3f247914fc7c64af2861, type: 3}
+    requiredCharacter: 1
+    delay: 15
+    lineColor: {r: 0.25, g: 0.6896552, b: 1, a: 1}
+    button: {fileID: 0}
+  - arrow: {fileID: 1032395008977604, guid: 2fd4383bc0efb134bb598383b4c8b98f, type: 3}
+    image: {fileID: 21300000, guid: 95eed8439460aa044a38c07a254b94a6, type: 3}
+    requiredCharacter: 2
+    delay: 10
+    lineColor: {r: 1, g: 0, b: 0, a: 1}
+    button: {fileID: 0}
+  TPose:
+  - {x: 24.646027, y: 180.00003, z: 180}
+  - {x: 295.42554, y: -0.0000044965786, z: 0.000028735654}
+  - {x: 358.84985, y: -0.0000000027506062, z: 0.00000027425082}
+  - {x: 356.57965, y: -0.00000002437702, z: 0.0000008164451}
+  - {x: 3.7342985, y: -0.00000002906618, z: -0.00000089158897}
+  - {x: 68.2037, y: 180.12099, z: 183.3123}
+  - {x: 3.2524831, y: 359.86298, z: 357.5261}
+  - {x: 277.10596, y: 5.8759694, z: 352.90015}
+  - {x: 68.2037, y: 179.87907, z: 176.6877}
+  - {x: 3.2524834, y: 0.13703518, z: 2.4739115}
+  - {x: 277.10596, y: 354.12405, z: 7.0998178}
+  - {x: 270.35938, y: 355.15552, z: 64.37415}
+  - {x: 30.965181, y: 264.1875, z: 356.75677}
+  - {x: 358.44125, y: 9.535956, z: 359.35065}
+  - {x: 359.9043, y: 268.98267, z: 356.87115}
+  - {x: 270.35773, y: 4.8440466, z: 295.62698}
+  - {x: 30.965141, y: 95.812515, z: 3.2431982}
+  - {x: 358.44125, y: 350.46405, z: 0.64936143}
+  - {x: 359.9043, y: 91.017296, z: 3.1288304}
+  rotations:
+  - {x: 24.646027, y: 180.00003, z: 180}
+  - {x: 295.42554, y: -0.0000044965786, z: 0.000028735654}
+  - {x: 358.84985, y: -0.0000000027506062, z: 0.00000027425082}
+  - {x: 356.57965, y: -0.00000002437702, z: 0.0000008164451}
+  - {x: 3.7342985, y: -0.00000002906618, z: -0.00000089158897}
+  - {x: 68.2037, y: 180.12099, z: 183.3123}
+  - {x: 3.2524831, y: 359.86298, z: 357.5261}
+  - {x: 277.10596, y: 5.8759694, z: 352.90015}
+  - {x: 68.2037, y: 179.87907, z: 176.6877}
+  - {x: 3.2524834, y: 0.13703518, z: 2.4739115}
+  - {x: 277.10596, y: 354.12405, z: 7.0998178}
+  - {x: 270.35938, y: 355.15552, z: 64.37415}
+  - {x: 30.965181, y: 264.1875, z: 356.75677}
+  - {x: 358.44125, y: 9.535956, z: 359.35065}
+  - {x: 359.9043, y: 268.98267, z: 356.87115}
+  - {x: 270.35773, y: 4.8440466, z: 295.62698}
+  - {x: 30.965141, y: 95.812515, z: 3.2431982}
+  - {x: 358.44125, y: 350.46405, z: 0.64936143}
+  - {x: 359.9043, y: 91.017296, z: 3.1288304}
